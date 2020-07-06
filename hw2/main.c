@@ -25,7 +25,7 @@ main()
         if (d<0)
             printf("Phuong trinh vo nghiem!!!");
         else if (d==0)
-            printf("Phuong trinh co nghiem kep la: %f",-b/(2*a));
+            printf("Phuong trinh co nghiem kep x la: %f",-b/(2*a));
         else
             printf("Phuong trinh co 2 nghiem phan biet la: %f,%f",(-b+sqrt(d))/(2*a),(-b-sqrt(d))/(2*a));
     }
